@@ -9,12 +9,12 @@ public class TC_LoginTest_001 extends BaseClass {
 
 	@Test
 	public void loginTest() throws InterruptedException {
-		driver.get(baseURL);
+		
 		log.info("URL is opened");
 		LoginPage lp = new LoginPage(driver);
-		lp.setUserName(username);
+		lp.setUserName(readConfig.getUsername());
 		log.info("usename is entered");
-		lp.setPassword(password);
+		lp.setPassword(readConfig.getPassword());
 		log.info("password is entered");
 		lp.clickLoginBtn();
 		log.info("Clicked login button");
