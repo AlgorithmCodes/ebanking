@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="eBankingProject" duration-ms="14877" started-at="2021-05-05T08:19:07Z" finished-at="2021-05-05T08:19:22Z">
+  <suite name="eBankingProject" duration-ms="14333" started-at="2021-05-05T10:00:52Z" finished-at="2021-05-05T10:01:07Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="14877" started-at="2021-05-05T08:19:07Z" finished-at="2021-05-05T08:19:22Z">
+    <test name="Test" duration-ms="14333" started-at="2021-05-05T10:00:52Z" finished-at="2021-05-05T10:01:07Z">
       <class name="com.banking.testCases.TC_LoginTest_001">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.banking.testCases.TC_LoginTest_001@369f73a2]" name="setup" is-config="true" duration-ms="7891" started-at="2021-05-05T08:19:07Z" finished-at="2021-05-05T08:19:15Z">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.banking.testCases.TC_LoginTest_001@1f28c152]" name="setup" is-config="true" duration-ms="6951" started-at="2021-05-05T10:00:52Z" finished-at="2021-05-05T10:00:59Z">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.banking.testCases.TC_LoginTest_001@369f73a2]" name="loginTest" duration-ms="5472" started-at="2021-05-05T08:19:15Z" finished-at="2021-05-05T08:19:21Z">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.banking.testCases.TC_LoginTest_001@1f28c152]" name="loginTest" duration-ms="5987" started-at="2021-05-05T10:00:59Z" finished-at="2021-05-05T10:01:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.banking.testCases.TC_LoginTest_001@369f73a2]" name="tearDown" is-config="true" duration-ms="1484" started-at="2021-05-05T08:19:21Z" finished-at="2021-05-05T08:19:22Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.banking.testCases.TC_LoginTest_001@1f28c152]" name="tearDown" is-config="true" duration-ms="840" started-at="2021-05-05T10:01:06Z" finished-at="2021-05-05T10:01:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
