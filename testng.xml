@@ -8,6 +8,8 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="com.banking.testCases.TC_LoginTest_001"/>
+      <class name="com.banking.testCases.TC_LoginTestDDT_002"/>
+      
      
     </classes>
   </test> <!-- Test -->

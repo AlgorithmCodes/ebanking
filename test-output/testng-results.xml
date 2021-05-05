@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="eBankingProject" duration-ms="14333" started-at="2021-05-05T10:00:52Z" finished-at="2021-05-05T10:01:07Z">
+  <suite name="eBankingProject" duration-ms="42324" started-at="2021-05-05T10:50:31Z" finished-at="2021-05-05T10:51:13Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="14333" started-at="2021-05-05T10:00:52Z" finished-at="2021-05-05T10:01:07Z">
-      <class name="com.banking.testCases.TC_LoginTest_001">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.banking.testCases.TC_LoginTest_001@1f28c152]" name="setup" is-config="true" duration-ms="6951" started-at="2021-05-05T10:00:52Z" finished-at="2021-05-05T10:00:59Z">
+    <test name="Test" duration-ms="42324" started-at="2021-05-05T10:50:31Z" finished-at="2021-05-05T10:51:13Z">
+      <class name="com.banking.testCases.TC_LoginTestDDT_002">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.banking.testCases.TC_LoginTestDDT_002@61f8bee4]" name="setup" is-config="true" duration-ms="5990" started-at="2021-05-05T10:50:46Z" finished-at="2021-05-05T10:50:52Z">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,92 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.banking.testCases.TC_LoginTest_001@1f28c152]" name="loginTest" duration-ms="5987" started-at="2021-05-05T10:00:59Z" finished-at="2021-05-05T10:01:05Z">
+        <test-method status="PASS" signature="loginTestDDT(java.lang.String, java.lang.String)[pri:0, instance:com.banking.testCases.TC_LoginTestDDT_002@61f8bee4]" name="loginTestDDT" duration-ms="6783" started-at="2021-05-05T10:50:53Z" data-provider="getData" finished-at="2021-05-05T10:50:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr324640]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[zehYjAj]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestDDT -->
+        <test-method status="PASS" signature="loginTestDDT(java.lang.String, java.lang.String)[pri:0, instance:com.banking.testCases.TC_LoginTestDDT_002@61f8bee4]" name="loginTestDDT" duration-ms="3097" started-at="2021-05-05T10:51:00Z" data-provider="getData" finished-at="2021-05-05T10:51:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr5455]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[699sdshh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestDDT -->
+        <test-method status="PASS" signature="loginTestDDT(java.lang.String, java.lang.String)[pri:0, instance:com.banking.testCases.TC_LoginTestDDT_002@61f8bee4]" name="loginTestDDT" duration-ms="5528" started-at="2021-05-05T10:51:03Z" data-provider="getData" finished-at="2021-05-05T10:51:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr324640]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[zehYjAj]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestDDT -->
+        <test-method status="PASS" signature="loginTestDDT(java.lang.String, java.lang.String)[pri:0, instance:com.banking.testCases.TC_LoginTestDDT_002@61f8bee4]" name="loginTestDDT" duration-ms="2949" started-at="2021-05-05T10:51:09Z" data-provider="getData" finished-at="2021-05-05T10:51:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr5455]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[699sdshh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestDDT -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.banking.testCases.TC_LoginTestDDT_002@61f8bee4]" name="tearDown" is-config="true" duration-ms="801" started-at="2021-05-05T10:51:12Z" finished-at="2021-05-05T10:51:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.banking.testCases.TC_LoginTestDDT_002 -->
+      <class name="com.banking.testCases.TC_LoginTest_001">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.banking.testCases.TC_LoginTest_001@4f970963]" name="setup" is-config="true" duration-ms="8596" started-at="2021-05-05T10:50:31Z" finished-at="2021-05-05T10:50:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.banking.testCases.TC_LoginTest_001@4f970963]" name="loginTest" duration-ms="5467" started-at="2021-05-05T10:50:39Z" finished-at="2021-05-05T10:50:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.banking.testCases.TC_LoginTest_001@1f28c152]" name="tearDown" is-config="true" duration-ms="840" started-at="2021-05-05T10:01:06Z" finished-at="2021-05-05T10:01:07Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.banking.testCases.TC_LoginTest_001@4f970963]" name="tearDown" is-config="true" duration-ms="873" started-at="2021-05-05T10:50:45Z" finished-at="2021-05-05T10:50:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
