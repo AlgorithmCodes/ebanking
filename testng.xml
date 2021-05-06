@@ -5,7 +5,7 @@
 <listener class-name="com.ebanking.utilities.Reporting"></listener>
 </listeners>
 <parameter name="browser" value="chrome"/>
-  <test thread-count="5" name="Test">
+  <test name="Test">
     <classes>
       <class name="com.banking.testCases.TC_LoginTest_001"/>
       <class name="com.banking.testCases.TC_LoginTestDDT_002"/>

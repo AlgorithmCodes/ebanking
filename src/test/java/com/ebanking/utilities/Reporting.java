@@ -13,22 +13,15 @@ import com.aventstack.extentreports.markuputils.MarkupHelper;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.banking.testCases.BaseClass;
 
-public class Reporting implements ITestListener {
+public class Reporting extends ReportUtility implements ITestListener {
 
-	public ExtentSparkReporter reporter;
-	public ExtentReports extent;
-	public ExtentTest test;
 
 	public void onTestStart(ITestResult result) {
-		String timestamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
-		String repName = "test-report" + timestamp + ".html";
-
-		reporter = new ExtentSparkReporter(System.getProperty("user.dir") + "\\reports\\" + repName);
-
-		extent = new ExtentReports();
-		extent.attachReporter(reporter);
-		extent.setSystemInfo("Env", "QA");
-		reporter.config().setDocumentTitle("automation result");
+		
+		
+		getMyReport();
+		
+		
 
 	}
 
@@ -67,8 +60,8 @@ public class Reporting implements ITestListener {
 	}
 
 	public void onFinish(ITestContext context) {
+		
 		extent.flush();
-
 	}
-
+	
 }

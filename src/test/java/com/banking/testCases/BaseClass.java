@@ -1,13 +1,11 @@
 package com.banking.testCases;
 
 import java.io.File;
-import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -20,18 +18,18 @@ import com.ebanking.utilities.ReadConfig;
 
 public class BaseClass {
 	
-	
-	/*public String baseURL="http://demo.guru99.com/V4/";
-	public String username="mngr324640";
-	public String password="zehYjAj";*/
+	ReadConfig readConfig=new ReadConfig();
+	public String baseURL=readConfig.getApplicationURL();
+	public String username=readConfig.getUsername();
+	public String password=readConfig.getPassword();
 	public static WebDriver driver;
 	public static Logger log;
-	public static ReadConfig readConfig;
+	
 	
 	@Parameters("browser")
 	@BeforeClass
 	public void setup(String browser) {
-		readConfig=new ReadConfig();
+		
 		if(browser.equals("chrome")) {
 		
 	System.setProperty("webdriver.chrome.driver", readConfig.getChromeDriverPath());

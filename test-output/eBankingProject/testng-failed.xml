@@ -10,10 +10,17 @@
       <class name="com.banking.testCases.TC_LoginTestDDT_002">
         <methods>
           <include name="setup"/>
-          <include name="loginTestDDT" invocation-numbers="0 2"/>
+          <include name="loginTestDDT" invocation-numbers="0 1 2 3"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.banking.testCases.TC_LoginTestDDT_002 -->
+      <class name="com.banking.testCases.TC_LoginTest_001">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.banking.testCases.TC_LoginTest_001 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [eBankingProject] -->
